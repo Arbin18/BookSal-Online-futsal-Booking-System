@@ -111,10 +111,7 @@ npm run dev
 1. Create a MySQL database named `BookSalDB`
 2. The application will automatically create tables on first run
 3. Seed data can be added through the admin panel
-
-##  Admin Credentials
-Email= ag@admin.com
-pass= ag@admin
+4. Create your admin credentials directly in Database 
 
 
 ## Project Structure
@@ -164,40 +161,6 @@ BookSal/
 - Password hashing with bcrypt
 - Role-based access control
 - Input validation and sanitization
-
-## API Endpoints
-
-### Authentication
-- `POST /api/auth/register` - User registration
-- `POST /api/auth/login` - User login
-- `GET /api/auth/profile` - Get user profile
-
-### Courts
-- `GET /api/courts` - Get all courts
-- `GET /api/courts/:id` - Get court details
-- `POST /api/courts` - Create court (Admin/Manager)
-
-### Bookings
-- `POST /api/bookings` - Create booking
-- `GET /api/bookings/user` - Get user bookings
-- `GET /api/bookings/court/:id/available-slots` - Get available slots
-
-### Payments
-- `POST /api/esewa/initiate` - Initiate eSewa payment
-- `GET /api/esewa/success` - Payment success callback
-- `GET /api/esewa/failure` - Payment failure callback
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License.
 
 ## Support
 
